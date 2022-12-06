@@ -1,5 +1,20 @@
 # Getting Started with Create React App
 
+
+## Local: D:\TTTD_CNW\
+
+## Git commit: 
+-   git remote add origin https://github.com/TrHgTung/TTTD_CNW.git
+-   git branch -M [branch_name]
+-   git push -u origin [branch_name]
+
+Ex:
+-   git remote add origin https://github.com/TrHgTung/TTTD_CNW.git :: Enter
+-   git branch -M Thanh :: Enter
+-   git push -u origin Thanh :: Enter
+
+# PM: facebook.com/nguyentuanhung12345
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
