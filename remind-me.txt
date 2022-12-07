@@ -1,0 +1,2 @@
+in package.json and package-lock.json:
+	if something's wrong: change all 'react-ecommerce' into 'Maltimart-ecommerce'

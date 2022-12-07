@@ -18,7 +18,7 @@
     font-weight: 500;
 }
 
-.buy_btn {
+.buy__btn {
     border: none;
     outline: none;
     padding: 8px 20px;
@@ -30,10 +30,54 @@
     margin-top: 40px;
 }
 
-.buy_btn a:hover {
+.buy__btn a:hover {
     color: #fff;
 }
 
 .hero__content {
     padding-top: 45px;
+}
+
+.timer__count {
+    background: var(--primary-color);
+    height: 300px;
+}
+
+.timer__count img {
+    width: 70% !important;
+    height: 70% !important;
+    object-fit: contain;
+}
+
+.store__btn {
+    background: #fff;
+    color: var(--primary-color);
+}
+
+.clock__top-content h3,
+.clock__top-content h5 {
+    margin-bottom: 3px;
+    color: #fff;
+    font-style: italic;
+}
+
+.clock__top-content h2 {
+    margin-top: 2px;
+    color: #fff;
+}
+
+@media only screen and (max-width:992px) {
+    .hero__content h2 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .hero__content h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero__content p {
+        font-size: 1rem;
+    }
 }
