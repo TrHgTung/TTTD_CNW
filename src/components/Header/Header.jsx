@@ -4,6 +4,7 @@ import './header.css'
 import logo from '../../assets/images/eco-logo.png'
 import userIcon from '../../assets/images/user-icon.png'
 import { Container, Row } from 'reactstrap'
+import { useSelector } from 'react-redux'
 import { motion } from 'framer-motion'
 
 const nav__links = [
@@ -28,6 +29,9 @@ const nav__links = [
 const Header = () => {
     const menuRef = useRef(null)
     const headerRef = useRef(null)
+
+    const totalQuantity = useSelector(state => state.cart.totalQuantity)
+
     const stickyHeaderFunc = () => {
         window.addEventListener('scroll', () => {
             if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
@@ -85,7 +89,7 @@ const Header = () => {
                                 <span className='badge'>1</span>
                             </span>
                             <span className='cart__icon'><i class="ri-briefcase-4-fill"></i>
-                                <span className='badge'>1</span>
+                                <span className='badge'>{totalQuantity}</span>
                             </span>
                             <span><motion.img whileTap={{ scale: 1.2 }} src={userIcon} alt="" /></span>
                             <div className='mobile__menu'>

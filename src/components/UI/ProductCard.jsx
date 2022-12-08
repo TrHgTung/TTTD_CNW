@@ -4,8 +4,26 @@ import { motion } from 'framer-motion'
 import '../../styles/product-card.css'
 import { Col } from 'reactstrap'
 import { Link } from 'react-router-dom'
+import { useDispatch } from 'react-redux'
+import { toast } from 'react-toastify'
+import { cartActions } from '../../redux/slices/cartSlice'
 
 const ProductCard = ({ item }) => {
+
+    const dispatch = useDispatch()
+    const addToCart = () => {
+        dispatch(cartActions.addItem({
+            id: item.id,
+            productName: item.productName,
+            price: item.price,
+            image: item.imgUrl,
+        }));
+
+        toast.success('Sản phẩm được thêm vào giỏ!')
+
+        // alert('Sản phẩm được thêm vào giỏ!')
+    };
+
     return (
         // <div className="product__item">
         //     <div className="product__img">
@@ -43,7 +61,7 @@ const ProductCard = ({ item }) => {
                     <span className="price">
                         {item.price} VND
                     </span>
-                    <motion.span whileTap={{ scale: 1.3 }}>
+                    <motion.span whileTap={{ scale: 1.3 }} onClick={addToCart}>
                         <i class="ri-add-circle-fill"></i>
                     </motion.span>
                 </div>
