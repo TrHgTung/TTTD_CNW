@@ -1,8 +1,9 @@
 import React from 'react'
 import './footer.css'
 import logo from "../../assets/images/eco-logo.png"
-import { Container, Row, Col, ListGroup, ListGroupItem } from 'reactstrap'
+import { Container, Row, Col, ListGroup, ListGroupItem, Button } from 'reactstrap'
 import { Link } from 'react-router-dom'
+import MailTo from './MailTo'
 
 const Footer = () => {
     return (
@@ -82,7 +83,7 @@ const Footer = () => {
                             <ListGroup className='mb-3'>
                                 <ListGroupItem className='ps-0 border-0'>
                                     <span><i class="ri-mail-line"></i></span>
-                                    <b>Hot-mail: </b> 4601104211@student.hcmue.edu.vn
+                                    <b>Hot-mail: </b> <MailTo label="4601104211@student.hcmue.edu.vn" mailto="mailto:4601104211@student.hcmue.edu.vn" />
                                 </ListGroupItem>
                             </ListGroup>
                         </div>
