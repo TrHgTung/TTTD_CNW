@@ -19,7 +19,7 @@ Open [http://localhost:3000](http://localhost:3000 hoặc http://127.0.0.1:3000)
 ### `npm test`: ko quan trọng
 
 ## Cách commit code và đẩy lên github: 
--   git remote rm origin >>>>> Enter `(xóa remote trên các máy dev khác) - ko nhập đoạn này`
+-   git remote rm origin >>>>> Enter `(xóa remote trên các máy dev khác) - ko nhập đoạn chữ tiếng Việt này`
 -   git remote add origin https://github.com/TrHgTung/TTTD_CNW.git >>>>> Enter
 -   git branch -M [branch_name]  >>>>> Enter
 -   git push -u origin [branch_name]   >>>>> Enter
