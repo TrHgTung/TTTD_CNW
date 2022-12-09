@@ -34,7 +34,7 @@ const products = [
     productName: "Sách Giáo Khoa Toán 1 ",
     imgUrl: productImg01,
     category: "Sách giáo khoa - Toán học",
-    price: 193,
+    price: 20000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -53,7 +53,7 @@ const products = [
     productName: "Sách Giáo Khoa Toán 2 ",
     imgUrl: productImg02,
     category: "Sách giáo khoa - Toán học",
-    price: 253,
+    price: 30000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -76,7 +76,7 @@ const products = [
     productName: "Sách Giáo Khoa Toán 3",
     imgUrl: productImg03,
     category: "Sách giáo khoa - Toán học",
-    price: 173,
+    price: 17000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -98,7 +98,7 @@ const products = [
     productName: "Sách Giáo Khoa Toán 4 Nâng Cao ",
     imgUrl: productImg02,
     category: "Sách nâng cao - Toán học",
-    price: 253,
+    price: 53000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -120,7 +120,7 @@ const products = [
     productName: "Sách Giáo Khoa Toán 4",
     imgUrl: productImg04,
     category: "Sách giáo khoa - Toán học",
-    price: 163,
+    price: 16000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -143,7 +143,7 @@ const products = [
     productName: "Sách Giáo Khoa Toán 5",
     imgUrl: productImg05,
     category: "Sách giáo khoa - Toán học",
-    price: 163,
+    price: 16000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -166,7 +166,7 @@ const products = [
     productName: "Sách Giáo Khoa Toán 6",
     imgUrl: productImg06,
     category: "Sách giáo khoa - Toán học",
-    price: 163,
+    price: 16000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -188,7 +188,7 @@ const products = [
     productName: "Sách Giáo Khoa Toán 7",
     imgUrl: productImg07,
     category: "Sách giáo khoa - Toán học",
-    price: 99,
+    price: 16000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -211,7 +211,7 @@ const products = [
     productName: "Sách Giáo Khoa Toán 8 Nâng Cao",
     imgUrl: productImg007,
     category: "Sách nâng cao - Toán học",
-    price: 173,
+    price: 17000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -234,7 +234,7 @@ const products = [
     productName: "Sách Giáo Khoa Toán 7",
     imgUrl: productImg08,
     category: "Sách giáo khoa - Toán học",
-    price: 89,
+    price: 18000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -257,7 +257,7 @@ const products = [
     productName: "Sách Giáo Khoa Toán 8",
     imgUrl: productImg09,
     category: "Sách giáo khoa - Toán học",
-    price: 112,
+    price: 18000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -280,7 +280,7 @@ const products = [
     productName: "Sách Giáo Khoa Toán 9",
     imgUrl: productImg13,
     category: "Sách giáo khoa - Toán học",
-    price: 799,
+    price: 18000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -302,7 +302,7 @@ const products = [
     productName: "Sách Giáo Khoa Toán 10",
     imgUrl: productImg10,
     category: "Sách giáo khoa - Toán học",
-    price: 99,
+    price: 18000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -324,7 +324,7 @@ const products = [
     productName: "Sách Giáo Khoa Toán 11",
     imgUrl: productImg14,
     category: "Sách giáo khoa - Toán học",
-    price: 799,
+    price: 19000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -347,7 +347,7 @@ const products = [
     productName: "Sách Giáo Khoa Toán 12",
     imgUrl: productImg15,
     category: "Sách giáo khoa - Toán học",
-    price: 599,
+    price: 19000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -370,7 +370,7 @@ const products = [
     productName: "Sách Giáo Khoa Toán Cao Cấp",
     imgUrl: productImg16,
     category: "Giáo dục đại học",
-    price: 799,
+    price: 90000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -393,7 +393,7 @@ const products = [
     productName: "Sách Giáo Khoa Ngữ Văn 1",
     imgUrl: productImg17,
     category: "Sách giáo khoa - Văn học",
-    price: 899,
+    price: 15000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -416,7 +416,7 @@ const products = [
     productName: "Sách Giáo Khoa Ngữ Văn 2",
     imgUrl: productImg18,
     category: "Sách giáo khoa - Văn học",
-    price: 699,
+    price: 16000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -439,7 +439,7 @@ const products = [
     productName: "Sách Giáo Khoa Ngữ Văn 3",
     imgUrl: productImg19,
     category: "Sách giáo khoa - Văn học",
-    price: 299,
+    price: 16000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -462,7 +462,7 @@ const products = [
     productName: "Sách Giáo Khoa Ngữ Văn 4",
     imgUrl: productImg20,
     category: "Sách giáo khoa - Văn học",
-    price: 299,
+    price: 16000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -485,7 +485,7 @@ const products = [
     productName: "Sách Giáo Khoa Ngữ Văn 5",
     imgUrl: productImg21,
     category: "Sách giáo khoa - Văn học",
-    price: 299,
+    price: 16000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -508,7 +508,7 @@ const products = [
     productName: "Sách Giáo Khoa Ngữ Văn 6",
     imgUrl: productImg22,
     category: "Sách giáo khoa - Văn học",
-    price: 399,
+    price: 16000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -531,7 +531,7 @@ const products = [
     productName: "Sách Giáo Khoa Ngữ Văn 7",
     imgUrl: productImg23,
     category: "Sách giáo khoa - Văn học",
-    price: 199,
+    price: 16000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -554,7 +554,7 @@ const products = [
     productName: "Sách Giáo Khoa Ngữ Văn 8",
     imgUrl: productImg25,
     category: "Sách giáo khoa - Văn học",
-    price: 199,
+    price: 16000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -574,10 +574,10 @@ const products = [
 
   {
     id: "23",
-    productName: "Sách Giáo Khoa Ngữ Văn 7",
+    productName: "Dế Mèn Phiêu Lưu Ký",
     imgUrl: productImg23,
     category: "Truyện tranh",
-    price: 199,
+    price: 16000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
