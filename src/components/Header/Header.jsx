@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react'
-import { NavLink, useNavigate } from 'react-router-dom'
+import { NavLink, useNavigate, Link } from 'react-router-dom'
 import './header.css'
 import logo from '../../assets/images/eco-logo.png'
 import userIcon from '../../assets/images/user-icon.png'
@@ -7,7 +7,6 @@ import { Container, Row } from 'reactstrap'
 import { useSelector } from 'react-redux'
 import { motion } from 'framer-motion'
 import useAuth from '../../custom-hooks/useAuth'
-import { Link } from 'react-router-dom'
 import { signOut } from 'firebase/auth'
 import { auth } from '../../firebase.config'
 import { toast } from 'react-toastify'
@@ -66,8 +65,8 @@ const Header = () => {
 
     const menuToggle = () => menuRef.current.classList.toggle('active__menu')
     const navigateToCart = () => {
-        navigate('/cart')
-    }
+        navigate('/cart');
+    };
 
     const toggleProfileActions = () => profileActionRef.current.classList.toggle('show__profileActions')
 
@@ -108,20 +107,21 @@ const Header = () => {
                         </div>
                         <div className="nav__icons">
                             <span className='fav__icon'><i class="ri-heart-fill"></i>
-                                <span className='badge'>1</span>
+                                <span className='badge'>{totalQuantity}</span>
                             </span>
                             <span className='cart__icon' onClick={navigateToCart}><i class="ri-briefcase-4-fill"></i>
                                 <span className='badge'>{totalQuantity}</span>
                             </span>
                             <div className='profile'>
-                                <motion.img whileTap={{ scale: 1.2 }} src={userIcon} alt="" onClick={toggleProfileActions} />
+                                <motion.img whileTap={{ scale: 1.2 }} src={currentUser ? userIcon : userIcon} onClick={toggleProfileActions} />
+
                                 <div className="profile__actions" ref={profileActionRef} onClick={toggleProfileActions}>
                                     {
-                                        currentUser ? <span onClick={logout}>Đăng xuất</span> :
-                                            <div className='d-flex align-items-center justify-content-center flex-column'>
+                                        currentUser ? (<span onClick={logout}>Đăng xuất</span>) :
+                                            (<div className='d-flex align-items-center justify-content-center flex-column'>
                                                 <Link to='/signup'>Đăng ký</Link>
                                                 <Link to='/login'>Đăng nhập</Link>
-                                            </div>
+                                            </div>)
                                     }
                                 </div>
                             </div>
