@@ -1,0 +1,12 @@
+.about__title {
+    font-weight: 600;
+    color: #000;
+}
+
+.description__about {
+    color: rgb(40, 39, 39);
+}
+
+.short__description {
+    color: rgb(60, 57, 57);
+}

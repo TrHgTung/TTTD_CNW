@@ -9,6 +9,10 @@ import Login from "../pages/Login"
 import Signup from "../pages/Signup"
 import About from '../pages/About'
 import ProtectedRoute from './ProtectedRoute'
+import AddProducts from '../admin/AddProducts'
+import AllProducts from '../admin/AllProducts'
+import Dashboard from '../admin/Dashboard'
+// import AdminNav from '../admin/AdminNav'
 
 const Routers = () => {
     return (
@@ -19,11 +23,19 @@ const Routers = () => {
             <Route path='shop/:id' element={<ProductDetails />} />
             <Route path='cart' element={<Cart />} />
             <Route path='about' element={<About />} />
-            <Route path='checkout' element={
+            <Route path='/*' element={<ProtectedRoute />} >
+                <Route path='checkout' element={<Checkout />} />
+                <Route path='dashboard' element={<Dashboard />} />
+                <Route path='dashboard/all-products' element={<AllProducts />} />
+                <Route path='dashboard/add-products' element={<AddProducts />} />
+                {/* <Route path='checkout' element={<Checkout />} /> */}
+            </Route>
+
+            {/* <Route path='checkout' element={
                 <ProtectedRoute>
                     <Checkout />
                 </ProtectedRoute>
-            } />
+            } /> */}
             <Route path='login' element={<Login />} />
             <Route path='signup' element={<Signup />} />
         </Routes>
