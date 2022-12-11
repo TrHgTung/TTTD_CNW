@@ -10,7 +10,7 @@ import { storage } from '../firebase.config'
 import { toast } from 'react-toastify'
 import { setDoc, doc } from 'firebase/firestore'
 import { db } from '../firebase.config'
-import { async } from '@firebase/util'
+// import { async } from '@firebase/util'
 
 const Signup = () => {
 
