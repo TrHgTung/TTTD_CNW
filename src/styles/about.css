@@ -1,12 +1,18 @@
 .about__title {
     font-weight: 600;
     color: #000;
+    margin-top: 45px;
 }
 
 .description__about {
     color: rgb(40, 39, 39);
+    margin-top: 30px;
+    margin-bottom: 70%;
 }
 
 .short__description {
     color: rgb(60, 57, 57);
+    margin-top: 15px;
+    margin-left: 10px;
+    text-align: center;
 }
