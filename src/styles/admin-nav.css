@@ -71,4 +71,13 @@
 
 .admin__menu-list .admin__menu-item a {
     color: var(--primary-color);
+    font-weight: 500;
+    /* background: whitesmoke; */
+    padding: 10px 15px;
+    border-radius: 5px;
+
+}
+
+.active__admin-menu {
+    background: whitesmoke;
 }
