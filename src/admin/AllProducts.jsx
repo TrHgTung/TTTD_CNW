@@ -1,8 +1,13 @@
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
 import productImg from '../assets/images/arm-chair-01.jpg'
+import useGetData from '../custom-hooks/useGetData'
 
 const AllProducts = () => {
+
+    const { data: productsData } = useGetData('products')
+
+    console.log(productsData)
     return (
         <section>
             <Container>
