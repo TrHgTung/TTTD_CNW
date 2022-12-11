@@ -1,0 +1,16 @@
+.footer {
+    background-color: #000;
+}
+
+.footer__quick-links,
+.quick__links-title,
+.category__footer {
+    background-color: transparent;
+    color: #fff;
+}
+
+.footer h1 {
+    margin-top: 15px;
+    background-color: transparent;
+    color: #fff;
+}

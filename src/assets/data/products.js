@@ -31,10 +31,10 @@ import productImg25 from "../images/wireless-03.png";
 const products = [
   {
     id: "01",
-    productName: "Stone and Beam Westview ",
+    productName: "Sách Giáo Khoa Toán 1 ",
     imgUrl: productImg01,
-    category: "sofa",
-    price: 193,
+    category: "Sách giáo khoa - Toán học",
+    price: 20000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -50,10 +50,10 @@ const products = [
 
   {
     id: "02",
-    productName: "Rivet Bigelow Modern ",
+    productName: "Sách Giáo Khoa Toán 2 ",
     imgUrl: productImg02,
-    category: "sofa",
-    price: 253,
+    category: "Sách giáo khoa - Toán học",
+    price: 30000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -73,10 +73,10 @@ const products = [
 
   {
     id: "03",
-    productName: "Amazon Brand Modern Sofa",
+    productName: "Sách Giáo Khoa Toán 3",
     imgUrl: productImg03,
-    category: "sofa",
-    price: 173,
+    category: "Sách giáo khoa - Toán học",
+    price: 17000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -95,10 +95,10 @@ const products = [
   },
   {
     id: "26",
-    productName: "Rivet Bigelow Modern ",
+    productName: "Sách Giáo Khoa Toán 4 Nâng Cao ",
     imgUrl: productImg02,
-    category: "sofa",
-    price: 253,
+    category: "Sách nâng cao - Toán học",
+    price: 53000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -117,10 +117,10 @@ const products = [
   },
   {
     id: "04",
-    productName: "Fllufy Sheep Sofa",
+    productName: "Sách Giáo Khoa Toán 4",
     imgUrl: productImg04,
-    category: "sofa",
-    price: 163,
+    category: "Sách giáo khoa - Toán học",
+    price: 16000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -140,10 +140,10 @@ const products = [
 
   {
     id: "05",
-    productName: "Faux Velvet Sofa",
+    productName: "Sách Giáo Khoa Toán 5",
     imgUrl: productImg05,
-    category: "sofa",
-    price: 163,
+    category: "Sách giáo khoa - Toán học",
+    price: 16000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -163,10 +163,10 @@ const products = [
 
   {
     id: "06",
-    productName: "Fllufy Sheep Sofa",
+    productName: "Sách Giáo Khoa Toán 6",
     imgUrl: productImg06,
-    category: "sofa",
-    price: 163,
+    category: "Sách giáo khoa - Toán học",
+    price: 16000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -185,10 +185,10 @@ const products = [
   },
   {
     id: "07",
-    productName: "Sakarias Armchair",
+    productName: "Sách Giáo Khoa Toán 7",
     imgUrl: productImg07,
-    category: "chair",
-    price: 99,
+    category: "Sách giáo khoa - Toán học",
+    price: 16000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -208,10 +208,10 @@ const products = [
 
   {
     id: "27",
-    productName: "Modern Arm Sofa",
+    productName: "Sách Giáo Khoa Toán 8 Nâng Cao",
     imgUrl: productImg007,
-    category: "sofa",
-    price: 173,
+    category: "Sách nâng cao - Toán học",
+    price: 17000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -231,10 +231,10 @@ const products = [
 
   {
     id: "08",
-    productName: "Baltsar Chair",
+    productName: "Sách Giáo Khoa Toán 7",
     imgUrl: productImg08,
-    category: "chair",
-    price: 89,
+    category: "Sách giáo khoa - Toán học",
+    price: 18000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -254,10 +254,10 @@ const products = [
 
   {
     id: "09",
-    productName: "Helmar Chair",
+    productName: "Sách Giáo Khoa Toán 8",
     imgUrl: productImg09,
-    category: "chair",
-    price: 112,
+    category: "Sách giáo khoa - Toán học",
+    price: 18000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -277,10 +277,10 @@ const products = [
 
   {
     id: "10",
-    productName: "Apple iPhone 12 Pro",
+    productName: "Sách Giáo Khoa Toán 9",
     imgUrl: productImg13,
-    category: "mobile",
-    price: 799,
+    category: "Sách giáo khoa - Toán học",
+    price: 18000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -299,10 +299,10 @@ const products = [
   },
   {
     id: "25",
-    productName: "Sakarias Armchair",
+    productName: "Sách Giáo Khoa Toán 10",
     imgUrl: productImg10,
-    category: "chair",
-    price: 99,
+    category: "Sách giáo khoa - Toán học",
+    price: 18000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -321,10 +321,10 @@ const products = [
   },
   {
     id: "11",
-    productName: "Apple iPhone 12 Max",
+    productName: "Sách Giáo Khoa Toán 11",
     imgUrl: productImg14,
-    category: "mobile",
-    price: 799,
+    category: "Sách giáo khoa - Toán học",
+    price: 19000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -344,10 +344,10 @@ const products = [
 
   {
     id: "12",
-    productName: "Realme 8",
+    productName: "Sách Giáo Khoa Toán 12",
     imgUrl: productImg15,
-    category: "mobile",
-    price: 599,
+    category: "Sách giáo khoa - Toán học",
+    price: 19000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -367,10 +367,10 @@ const products = [
 
   {
     id: "13",
-    productName: "One Plus Nord",
+    productName: "Sách Giáo Khoa Toán Cao Cấp",
     imgUrl: productImg16,
-    category: "mobile",
-    price: 799,
+    category: "Giáo dục đại học",
+    price: 90000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -390,10 +390,10 @@ const products = [
 
   {
     id: "14",
-    productName: "Apple iPhone 13 Pro",
+    productName: "Sách Giáo Khoa Ngữ Văn 1",
     imgUrl: productImg17,
-    category: "mobile",
-    price: 899,
+    category: "Sách giáo khoa - Văn học",
+    price: 15000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -413,10 +413,10 @@ const products = [
 
   {
     id: "15",
-    productName: "Samsung Galaxy S22",
+    productName: "Sách Giáo Khoa Ngữ Văn 2",
     imgUrl: productImg18,
-    category: "mobile",
-    price: 699,
+    category: "Sách giáo khoa - Văn học",
+    price: 16000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -436,10 +436,10 @@ const products = [
 
   {
     id: "16",
-    productName: "Rolex Watch",
+    productName: "Sách Giáo Khoa Ngữ Văn 3",
     imgUrl: productImg19,
-    category: "watch",
-    price: 299,
+    category: "Sách giáo khoa - Văn học",
+    price: 16000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -459,10 +459,10 @@ const products = [
 
   {
     id: "17",
-    productName: "Timex Easy Reader Watch",
+    productName: "Sách Giáo Khoa Ngữ Văn 4",
     imgUrl: productImg20,
-    category: "watch",
-    price: 299,
+    category: "Sách giáo khoa - Văn học",
+    price: 16000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -482,10 +482,10 @@ const products = [
 
   {
     id: "18",
-    productName: "Rolex Watch",
+    productName: "Sách Giáo Khoa Ngữ Văn 5",
     imgUrl: productImg21,
-    category: "watch",
-    price: 299,
+    category: "Sách giáo khoa - Văn học",
+    price: 16000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -505,10 +505,10 @@ const products = [
 
   {
     id: "19",
-    productName: "Apple Watch",
+    productName: "Sách Giáo Khoa Ngữ Văn 6",
     imgUrl: productImg22,
-    category: "watch",
-    price: 399,
+    category: "Sách giáo khoa - Văn học",
+    price: 16000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -528,10 +528,10 @@ const products = [
 
   {
     id: "20",
-    productName: "Beat Studio Wireless",
+    productName: "Sách Giáo Khoa Ngữ Văn 7",
     imgUrl: productImg23,
-    category: "wireless",
-    price: 199,
+    category: "Sách giáo khoa - Văn học",
+    price: 16000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -551,10 +551,10 @@ const products = [
 
   {
     id: "22",
-    productName: "Beat EP Headphones",
+    productName: "Sách Giáo Khoa Ngữ Văn 8",
     imgUrl: productImg25,
-    category: "wireless",
-    price: 199,
+    category: "Sách giáo khoa - Văn học",
+    price: 16000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -571,6 +571,30 @@ const products = [
     ],
     avgRating: 4.8,
   },
+
+  {
+    id: "23",
+    productName: "Dế Mèn Phiêu Lưu Ký",
+    imgUrl: productImg23,
+    category: "Truyện tranh",
+    price: 16000,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.9,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.8,
+  },
+
 ];
 
 export default products;
