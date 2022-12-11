@@ -121,7 +121,7 @@ const Header = () => {
                                             (<div className='d-flex align-items-center justify-content-center flex-column'>
                                                 <Link to='/signup'>Đăng ký</Link>
                                                 <Link to='/login'>Đăng nhập</Link>
-                                                <Link to='/dashboard'>Bảng điều khiển</Link>
+                                                {/* <Link to='/dashboard'>Bảng điều khiển</Link> */}
                                             </div>)
                                     }
                                 </div>

@@ -6,7 +6,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { signInWithEmailAndPassword } from 'firebase/auth'
 import { auth } from '../firebase.config'
 import { toast } from 'react-toastify'
-import { async } from '@firebase/util'
+// import { async } from '@firebase/util'
 
 const Login = () => {
     const navigate = useNavigate()
@@ -22,10 +22,10 @@ const Login = () => {
             const userCredential = await signInWithEmailAndPassword(auth, email, password)
             const user = userCredential.user
 
-            console.log(user)
+            // console.log(user)
             setLoading(false)
             toast.success('Đăng nhập thành công!')
-            navigate('/checkout')
+            navigate('/home')
         } catch (error) {
             setLoading(false)
             toast.error(error.message)
@@ -33,12 +33,12 @@ const Login = () => {
     }
 
     return (
-        <Helmet title='Login'>
+        <Helmet title=' - Đăng nhập'>
             <section>
                 <Container>
                     <Row>
                         {
-                            loading ? <Col lg='12' className='text-center'><h5 className='fw-bold'>Loading</h5></Col> :
+                            loading ? <Col lg='12' className='text-center'><h5 className='fw-bold'>Đang tải nội dung..</h5></Col> :
                                 <Col lg='6' className='m-auto text-center'>
                                     <h3 className='fw-bold mb-4'>Đăng Nhập</h3>
                                     <Form className='auth__form' onSubmit={signIn}>

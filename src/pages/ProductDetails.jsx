@@ -62,7 +62,7 @@ const ProductDetails = () => {
     }, [product]);
 
     return (
-        <Helmet title={productName}>
+        <Helmet title={- `${productName}`}>
             <CommonSection title={productName} />
 
             <section className='pt-0'>

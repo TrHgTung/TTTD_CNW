@@ -44,7 +44,7 @@ const Shop = () => {
     }
 
     return (
-        <Helmet title='Sản phẩm' >
+        <Helmet title=' - Sản phẩm' >
             <CommonSection title="Sản phẩm" />
 
             <section>

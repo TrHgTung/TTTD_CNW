@@ -39,15 +39,17 @@ const Signup = () => {
                 getDownloadURL(uploadTask.snapshot.ref).then(async (downloadURL) => {
                     // cap nhat thong tin user
                     await updateProfile(user, {
+                        uid: user.uid,
                         displayName: username,
-                        // photoURL: downloadURL,
+                        email,
+                        photoURL: downloadURL,
                     })
                     // luu thong tin user (luu vao gg firestore database)
                     await setDoc(doc(db, 'users', user.uid), {
                         uid: user.uid,
                         displayName: username,
                         email,
-                        // photoURL: downloadURL,
+                        photoURL: downloadURL,
                     })
 
                 })
@@ -64,13 +66,13 @@ const Signup = () => {
     }
 
     return (
-        <Helmet title='Signup'>
+        <Helmet title=' - Đăng ký'>
             <section>
                 <Container>
                     <Row>
                         {
-                            loading ? <Col lg='12' className='text-center'><h6 className='fw-bold'>Loading</h6></Col> :
-                                <Col lg='6' className='m-auto text-center'>
+                            loading ? (<Col lg='12' className='text-center'><h5 className='fw-bold'>Đang tải nội dung..</h5></Col>) :
+                                (<Col lg='6' className='m-auto text-center'>
                                     <h3 className='fw-bold mb-4'>Đăng Ký</h3>
                                     <Form className='auth__form' onSubmit={signup}>
                                         <FormGroup className='form__group'>
@@ -85,16 +87,16 @@ const Signup = () => {
                                             <input type="password" placeholder='Nhập mật khẩu..' value={password} onChange={e => setPassword(e.target.value)} />
                                         </FormGroup>
 
-                                        {/* <FormGroup className='form__group'>
+                                        <FormGroup className='form__group'>
                                             <input type="file" onChange={e => setFile(e.target.files[0])} />
-                                        </FormGroup> */}
+                                        </FormGroup>
 
                                         <button type='submit' className="buy__btn auth__btn">
                                             Đăng ký
                                         </button>
                                         <p>Bạn đã có tài khoản rồi? Vậy thì hãy <Link to='/login'>đăng nhập</Link></p>
                                     </Form>
-                                </Col>
+                                </Col>)
                         }
                     </Row>
                 </Container>
