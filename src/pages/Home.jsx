@@ -44,7 +44,7 @@ const Home = () => {
                                 <p className="hero__subtitle">Được Tin Dùng Nhất {year}</p>
                                 <h2>Chúng tôi luôn đem đến cho bạn niềm vui với tri thức</h2>
                                 <p><b>Bạn có biết: </b>Khi mua sách tại <i>TTTD Shop</i> &copy; , có hai thứ bạn nhận được là kiến thức và sự hài lòng khi sử dụng dịch vụ!</p>
-                                <motion.button whileTap={{ scale: 1.2 }} className="buy__btn"><Link to='shop'>KHÁM PHÁ NGAY</Link></motion.button>
+                                <motion.button whileTap={{ scale: 1.2 }} className="buy__btn"><Link to='../shop'>KHÁM PHÁ NGAY</Link></motion.button>
                             </div>
                         </Col>
                         <Col lg='6' md='6'>
